@@ -91,7 +91,7 @@ python pipeline.py
 
 ## Notes
 
-- The default model is `google/gemma-4-31b-it-20260402:free` via OpenRouter.
+- The default model is `qwen/qwen3.6-plus:free` via OpenRouter.
 - The project expects a valid OpenRouter key in the environment.
 - If `duckduckgo_search` changes behavior across versions, the tool layer includes compatibility handling for different package APIs.
 
