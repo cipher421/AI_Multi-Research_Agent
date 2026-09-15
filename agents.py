@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 #model setup 
-llm = ChatOpenRouter(model = "google/gemma-4-31b-it:free", max_tokens=1000,temperature=0)
+llm = ChatOpenRouter(model = "google/gemma-4-31b-it-20260402:free", max_tokens=1000,temperature=0)
 
 
 #1st agent 
